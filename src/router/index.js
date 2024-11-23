@@ -35,4 +35,5 @@ router.beforeEach((to,
     document.title = `${baseTitle} | ${to.meta['title']}`;
     authenticationGuard(to, from, next);
 });
+
 export default router;
