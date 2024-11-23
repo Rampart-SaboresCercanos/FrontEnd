@@ -53,11 +53,11 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #1f1f1f, #3f3f3f);
+  background: linear-gradient(135deg, white, white);
 }
 
 .auth-card {
-  background: #2b2b2b;
+  background: darkorange;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -70,12 +70,12 @@ export default {
 .auth-card h3 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: #00d1b2;
+  color: black;
 }
 
 .auth-card .description {
   margin-bottom: 2rem;
-  color: #b5b5b5;
+  color: white;
 }
 
 .field {
@@ -93,11 +93,11 @@ export default {
 }
 
 .pv-input-text.p-invalid {
-  border-color: #ff3860;
+  border-color: black;
 }
 
 .p-invalid {
-  color: #ff3860;
+  color: black;
 }
 
 .pv-button {
